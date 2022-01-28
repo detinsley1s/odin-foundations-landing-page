@@ -1,0 +1,58 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+header,
+.hero {
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 200px;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.hero-text p,
+header .links a {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+.links {
+    display: flex;
+    gap: 30px;
+}
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-color: #3882f6;
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 500px;
+    height: 299px;
+}
+
+.hero-text button {
+    align-self: flex-start;
+}
+
+.hero * {
+    margin: 0;
+}
+
+.hero {
+    padding-bottom: 100px;
+}
