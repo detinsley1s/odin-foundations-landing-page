@@ -56,3 +56,33 @@ button {
 .hero {
     padding-bottom: 100px;
 }
+
+figure {
+    display: inline-block;
+    text-align: center;
+    width: 200px;
+    margin: 0 30px;
+}
+
+figcaption {
+    display: block;
+}
+
+img {
+    border-radius: 15px;
+}
+
+.section-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 125px;
+}
+
+.section-2 h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    margin: 45px 0;
+}
