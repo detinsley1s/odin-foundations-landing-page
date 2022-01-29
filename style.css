@@ -142,3 +142,11 @@ img {
     color: #e5e7eb;
     margin: 0;
 }
+
+footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+}
